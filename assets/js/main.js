@@ -75,6 +75,7 @@ const showDetails = (name) => {
 
 
 function topFunction() {
+    console.log('passei aqui');
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
