@@ -75,6 +75,16 @@ const showDetails = (name) => {
 
 }
 
+function scrollFunction() {
+    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("btn-home").style.display = "block";
+        
+    } else {
+        document.getElementById("btn-home").style.display = "none";
+        console.log('passei aqui');
+    }
+}
+
 
 function topFunction() {
     document.body.scrollTop = 0;
