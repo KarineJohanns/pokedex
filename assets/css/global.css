@@ -31,7 +31,7 @@ body {
 }
 
 .fab button {
-    /* display: none; */
+    display: none;
     cursor: pointer;
     width: 48px;
     height: 48px;
