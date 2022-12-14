@@ -81,7 +81,6 @@ function scrollFunction() {
         
     } else {
         document.getElementById("btn-home").style.display = "none";
-        console.log('passei aqui');
     }
 }
 
