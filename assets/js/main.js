@@ -73,6 +73,7 @@ const showDetails = (name) => {
     
     
 
+}
 
 function topFunction() {
     console.log('passei aqui');
@@ -80,5 +81,4 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-}
 
